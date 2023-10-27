@@ -1,0 +1,99 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(water.jpg);
+    height: 100%;
+    
+}
+  
+.navbar a {
+    text-decoration: none;
+    
+    
+}
+.navbar {
+    
+    overflow: hidden;
+    background: greenyellow;
+    text-align: center;
+    
+}
+.navbar ul li a  {
+    float: right;
+    display: block;
+    margin-right: 20px;
+    padding: 16px;
+}
+li{
+    list-style: none;
+}
+
+.logo{
+    float: left;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background: bisque;
+    font-size: 26px;
+    color: blue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form{
+    float: right;
+    background: rgb(91, 11, 220);
+}
+    
+p a {
+    color: aliceblue;
+}
+.bba{
+    background: white;
+}
+
+li a{
+    font-size: 13px;
+    color: black;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background: #1c3ec6;
+    color: aliceblue;
+    transition: 0.2s;
+    letter-spacing: 2px;
+}
+
+.logo:hover {
+    background: black;
+    color: blanchedalmond;
+    letter-spacing: 2px;
+    transition: .4s;
+    
+}
+.login input[type=text]{
+   padding: 6px;
+   margin: 10px 5px;
+   border-radius: 15px;
+}
+
+.login input[type=password]{
+    padding: 6px ;
+    margin: 10px 5px;
+    border-radius: 15px;
+}
+
+.login button[type=submit] {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 15px;
+    background: #1c3ec6;
+    color: azure;
+}
+.login button[type=submit]:hover{
+    background: red;
+}

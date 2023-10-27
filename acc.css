@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    background: yellow;
+  }
+.woee{
+    background: blueviolet;
+}
+#accordion {
+    margin: 90px auto;
+    width: 600px;
+
+}
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: gainsboro;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#accordion li label{
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#accordion li label span{
+    transform: rotate(90deg);
+    color: #333;
+    font-size: 25px;
+}
+
+#accordion li label + input[type="radio"]{
+    display: none;
+}
+#accordion .content {
+    padding: 0px 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+}
